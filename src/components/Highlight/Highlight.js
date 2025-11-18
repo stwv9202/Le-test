@@ -17,7 +17,11 @@ const Highlight = (props) => {
 
   return (
     <div className={styles.root}>
-      <img alt={altImage} src={toOptimizedImage(image)} className={styles.highlightImage} />
+      <img
+        alt={altImage}
+        src={toOptimizedImage(image)}
+        className={styles.highlightImage}
+      />
       <div className={styles.contentContainer}>
         <h3>{title}</h3>
         <p>{description}</p>

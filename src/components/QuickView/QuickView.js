@@ -18,7 +18,7 @@ const QuickView = (props) => {
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
   const [activeSwatch, setActiveSwatch] = useState(
-    sampleProduct.colorOptions[0]
+    sampleProduct.colorOptions[0],
   );
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
 
@@ -39,7 +39,10 @@ const QuickView = (props) => {
             <CurrencyFormatter amount={sampleProduct.price}></CurrencyFormatter>
           </div>
           <div className={styles.productImageContainer}>
-            <img alt={sampleProduct.alt} src={toOptimizedImage(sampleProduct.image)}></img>
+            <img
+              alt={sampleProduct.alt}
+              src={toOptimizedImage(sampleProduct.image)}
+            ></img>
           </div>
         </div>
 

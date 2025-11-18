@@ -16,7 +16,8 @@ const Banner = (props) => {
 
   const customStyling = {
     backgroundColor: bgColor,
-    backgroundImage: bgImage !== undefined ? `url(${toOptimizedImage(bgImage)})` : 'none',
+    backgroundImage:
+      bgImage !== undefined ? `url(${toOptimizedImage(bgImage)})` : 'none',
     height: height,
     color: color,
   };

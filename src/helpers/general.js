@@ -88,10 +88,16 @@ function isAuth() {
     <img src={toOptimizedImage(image)} .../>
  */
 function toOptimizedImage(imageUrl) {
-  if (!imageUrl.startsWith('/') || imageUrl.endsWith("imgcdn=true")) return imageUrl;
-  return imageUrl + 
-          (imageUrl.includes("?") ? "&" : "?") + 
-          "imgcdn=true";
+  if (!imageUrl.startsWith('/') || imageUrl.endsWith('imgcdn=true'))
+    return imageUrl;
+  return imageUrl + (imageUrl.includes('?') ? '&' : '?') + 'imgcdn=true';
 }
 
-export { isNumeric, validateEmail, validateStrongPassword, isEmpty, isAuth, toOptimizedImage };
+export {
+  isNumeric,
+  validateEmail,
+  validateStrongPassword,
+  isEmpty,
+  isAuth,
+  toOptimizedImage,
+};
