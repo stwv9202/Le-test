@@ -4,9 +4,20 @@
     cursor: pointer;
 }
 
+.root h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
 @media (max-width: 800px) {
     .root svg {
         width: 90px;
         height: 16.67px;
+    }
+    
+    .root h4 {
+        font-size: 18px;
     }
 }
