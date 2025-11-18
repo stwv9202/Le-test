@@ -29,10 +29,10 @@ const CurrencyFormatter = ({
     const formattedPriceParts = formatObject.formatToParts(displayAmount);
     if (useDollar === false) symbol = formattedPriceParts[0].value;
     const currencyValue = formattedPriceParts.find(
-      (obj) => obj.type === 'currency'
+      (obj) => obj.type === 'currency',
     );
     const decimalValue = formattedPriceParts.find(
-      (obj) => obj.type === 'fraction'
+      (obj) => obj.type === 'fraction',
     );
     formattedPrice = formattedPrice.replace(currencyValue.value, '');
     if (decimalValue && decimalValue.value === '00' && !appendZero) {

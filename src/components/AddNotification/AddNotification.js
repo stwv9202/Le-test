@@ -37,7 +37,10 @@ const AddNotification = (props) => {
 
       <div className={styles.newItemContainer}>
         <div className={styles.imageContainer}>
-          <img alt={sampleCartItem.alt} src={toOptimizedImage(sampleCartItem.image)} />
+          <img
+            alt={sampleCartItem.alt}
+            src={toOptimizedImage(sampleCartItem.image)}
+          />
         </div>
         <div className={styles.detailContainer}>
           <span className={styles.name}>{sampleCartItem.name}</span>

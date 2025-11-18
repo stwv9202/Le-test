@@ -131,12 +131,86 @@
     {
       "menuLabel": "journal",
       "menuLink": "/blog",
-      "category": null
+      "category": [
+        {
+          "categoryLabel": "Topics",
+          "submenu": [
+            {
+              "menuLabel": "Fashion",
+              "menuLink": "/blog"
+            },
+            {
+              "menuLabel": "Lifestyle",
+              "menuLink": "/blog"
+            },
+            {
+              "menuLabel": "Design",
+              "menuLink": "/blog"
+            },
+            {
+              "menuLabel": "Sustainability",
+              "menuLink": "/blog"
+            }
+          ]
+        },
+        {
+          "categoryLabel": "Collections",
+          "submenu": [
+            {
+              "menuLabel": "Latest Articles",
+              "menuLink": "/blog"
+            },
+            {
+              "menuLabel": "Popular Posts",
+              "menuLink": "/blog"
+            },
+            {
+              "menuLabel": "Editor's Picks",
+              "menuLink": "/blog"
+            }
+          ]
+        }
+      ]
     },
     {
       "menuLabel": "About",
       "menuLink": "/about",
-      "category": null
+      "category": [
+        {
+          "categoryLabel": "Company",
+          "submenu": [
+            {
+              "menuLabel": "Our Story",
+              "menuLink": "/about"
+            },
+            {
+              "menuLabel": "Team",
+              "menuLink": "/about"
+            },
+            {
+              "menuLabel": "Careers",
+              "menuLink": "/about"
+            }
+          ]
+        },
+        {
+          "categoryLabel": "Support",
+          "submenu": [
+            {
+              "menuLabel": "Contact Us",
+              "menuLink": "/support#contact"
+            },
+            {
+              "menuLabel": "FAQ",
+              "menuLink": "/faq"
+            },
+            {
+              "menuLabel": "Shipping & Returns",
+              "menuLink": "/support#returns"
+            }
+          ]
+        }
+      ]
     }
   ],
   "filters": [

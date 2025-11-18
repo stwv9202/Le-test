@@ -119,7 +119,10 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={toOptimizedImage('/about3.png')}></img>
+          <img
+            alt={'shirt backwards'}
+            src={toOptimizedImage('/about3.png')}
+          ></img>
         </div>
       </div>
     </Layout>

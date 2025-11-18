@@ -40,7 +40,11 @@ const ProductCard = (props) => {
         onClick={() => handleRouteToProduct()}
         role={'presentation'}
       >
-        <img style={{ height: `${height}px` }} src={toOptimizedImage(image)} alt={imageAlt}></img>
+        <img
+          style={{ height: `${height}px` }}
+          src={toOptimizedImage(image)}
+          alt={imageAlt}
+        ></img>
         <div
           className={styles.bagContainer}
           role={'presentation'}

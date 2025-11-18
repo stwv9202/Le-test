@@ -53,7 +53,10 @@ const SamplePage = (props) => {
                   <img src={toOptimizedImage('/cloth.png')} alt={'sample1'} />
                 </div>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/collections/collection1.png')} alt={'sample2'} />
+                  <img
+                    src={toOptimizedImage('/collections/collection1.png')}
+                    alt={'sample2'}
+                  />
                 </div>
               </div>
               <div className={styles.content}>

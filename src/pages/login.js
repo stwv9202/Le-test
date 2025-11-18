@@ -58,7 +58,7 @@ const LoginPage = (props) => {
       } else {
         window.scrollTo(0, 0);
         setErrorMessage(
-          'There is no such account associated with this email address'
+          'There is no such account associated with this email address',
         );
       }
     } else {

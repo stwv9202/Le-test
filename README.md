@@ -12,8 +12,32 @@ Take a look at the screenshot below or preview the live site here: https://gatsb
 
 > 🧐 Please be aware that some aspects of this theme are not fully functional and will need to be integrated with the recommended tooling mentioned at the end of the [README](#next-steps-with-this-theme). 
 
+## How to Preview This Website
+
+Want to see this website in action on your local machine? Follow these simple steps:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+3. **Open your browser** and visit: **http://localhost:5000**
+
+That's it! The website should now be running locally. You'll see hot-reloading in action - any changes you make to the code will automatically refresh in your browser.
+
+**Alternative commands:**
+- `npm run develop` - Starts the dev server on the default Gatsby port (8000)
+- `gatsby develop` - Same as above if you have Gatsby CLI installed globally
+- `netlify dev` - Run using the Netlify CLI (if installed)
+
 ## Table of Contents:
 
+- [How to Preview This Website](#how-to-preview-this-website)
 - [Quick Steps + Deploy Options](#quick-setup--deploy-option)
   - [Cloning + Installing Packages](#cloning--installing-packages)
 - [Deploying](#deploying)
